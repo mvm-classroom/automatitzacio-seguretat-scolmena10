@@ -1,0 +1,19 @@
+[34m[INFO][0m Inicio del mantenimiento de Pagila
+[34m[INFO][0m Ejecutando: VACUUM ANALYZE rental;
+VACUUM
+[34m[INFO][0m Ejecutando: VACUUM ANALYZE payment;
+VACUUM
+[34m[INFO][0m Ejecutando: VACUUM ANALYZE inventory;
+VACUUM
+[34m[INFO][0m Ejecutando: VACUUM ANALYZE film;
+VACUUM
+[34m[INFO][0m Ejecutando: REINDEX TABLE rental;
+REINDEX
+[34m[INFO][0m Ejecutando: REINDEX TABLE payment;
+REINDEX
+[34m[INFO][0m Ejecutando: REINDEX TABLE inventory;
+REINDEX
+[34m[INFO][0m Ejecutando: REINDEX TABLE film;
+REINDEX
+[32m[OK][0m Mantenimiento finalizado correctamente
+[34m[INFO][0m Log guardado en /home/alumne/Documents/pagila-automatizacion/manteniment-pagila.log
